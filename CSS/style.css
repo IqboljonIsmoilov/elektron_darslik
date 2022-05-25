@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+/* ***************  header   ************* */
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 120px;
+    border: 1px solid #999;
+}
+
+.row_1 {
+    display: flex;
+    padding: 4px 20px;
+}
+
+.col_1 {
+    display: inline-block;
+}
+
+.row_1 .col_1 > img {
+    border-radius: 50%;
+    width: 110px;
+}
+
+.col_1 p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-right: 220px;
+}
+
+.row_1 .col_2_img img {
+    width: 40px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+
+.row_1 .col_3_img img {
+    width: 40px;
+    padding-top: 27px;
+    margin-left: 10px;
+}
+
+.line {
+    background-color: rgb(0, 225, 255);
+    width: 100%;
+    height: 15px;
+}
+
+
+/* ************ main  *************** */
+
+
+/*************** Style the tab *************/
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #000;
+    width: 25%;
+    height: 560px;
+}
+      
+/**************** Style the buttons inside the tab *************/
+
+.tab button {
+    height: 50px;
+    display: block;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    padding: 0px 70px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+      
+/************** Change background color of buttons on hover *******************/
+
+.tab button:hover {
+    background-color: rgb(199, 25, 25);
+}
+      
+/************** Create an active/current "tab button" class **************/
+
+.tab button.active {
+    background-color: rgb(0, 167, 189);
+}
+      
+/************** Style the tab content **************/
+
+.tabcontent {
+    float: left;
+    border: 1px solid #ccc;
+    width: 75%;
+    border-left: none;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: 10px 80px;
+    text-align: justify;
+}
+
+.tabcontent1 {
+    padding-top: 30px;
+}
+
+.tabcontent h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.tabcontent1 p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 150px;
+    line-height: 60px;
+    word-spacing: 1px;
+}
+
+.tabcontent2 h4 {
+    text-align: center;
+}
+
+.tabcontent2 {
+    line-height: 24px;
+    word-spacing: 1px;
+    padding-top: 30px;
+}
+
+.tabcontent3 {
+    line-height: 27px;
+    word-spacing: 1px;
+    padding-top: 30px;
+}
+
+
+.tabcontent4 {
+    line-height: 27px;
+    word-spacing: 1px;
+}
+
+.tabcontent4 p {
+    margin-top: 30px;
+    /* margin-top: 70px; */
+}
+
+.tabcontent4 a {
+    margin-left: 33px;
+    text-decoration: none;
+}
+
+.tabcontent4 .a {
+    position: fixed;
+    background-color: #0ff;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+
+.tabcontent5 {
+    line-height: 27px;
+    word-spacing: 1px;
+}
+
+.tabcontent5 p {
+    margin-top: 30px;
+    margin-top: 70px;
+}
+
+.tabcontent5 a {
+    margin-left: 41px;
+    text-decoration: none;
+}
+
+.tabcontent5 .a {
+    position: fixed;
+    background-color: #0ff;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.tabcontent6 #lab1{
+    margin-top: -20px;
+}
+
+.tabcontent6 h3 {
+    margin-bottom: 40px;
+}
+
+
+.tabcontent6 .a {
+    position: fixed;
+    background-color: #0ff;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.tabcontent6 a {
+    margin-left: 14px;
+    text-decoration: none;
+}
+
+.tabcontent6  {
+    line-height: 27px;
+    word-spacing: 1px;
+}
+
+.tabcontent6 p {
+    margin-top: 100px;
+}
+
+.tabcontent7 {
+    line-height: 20px;
+    word-spacing: 1px;
+    padding-top: 40px;
+
+}
